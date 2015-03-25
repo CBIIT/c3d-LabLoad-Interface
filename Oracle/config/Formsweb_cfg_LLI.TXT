@@ -1,0 +1,16 @@
+; Lab Load Interface
+; 
+[LabLoadInterface]
+baseHTMLJInitiator=f:\opapps46\html\opa46_basejpi.htm
+serverApp=opa46
+envFile=opa46.env
+archive_jpi=frmall_jpi.jarjar
+form=lli.fmx term=f:\opapps46\opa\opa46_fmrpcweb.res de_gridwidth=7 de_gridheight=18
+separateFrame=True
+otherparams=
+width=600
+height=600
+pageTitle=NCI Oracle Pharmaceuticals Application - Lab Load Interface
+colorScheme=blue
+background=no
+opa_file_viewing=

@@ -1,0 +1,37 @@
+Deplyoment of Lab Loader Interface Sort Enhancement to OCPROD (Production)
+
+This enhancement consists of both an Oracle Forms Web modification
+and Oracle RDBMS alterations.
+
+General:
+1) Copy all files of the deployment to a single location.  This location will also be 
+   used when applying the Database changes.
+
+Middle Tier Web Deployment:
+
+1) The web form enhancement will need deployed.  
+
+ 	Copy the files:
+
+	LLI.fmx
+	LLI.fmb
+
+	to:
+
+	D:\ncioraapps
+
+Orale RDBMS Alterations
+
+1) As a DBA or Administrator, log into SQL*Plus, ensuring that the default directory 
+   is that where the deployment SQL files are located.  Execute the script:
+
+	@LLI_UPGRADE.sql
+
+   Check the file LLI_UPGRADE.Lst for any obvious errors.  If any errors
+   are encountered, please report them.
+
+Congratulations, you are DONE!
+
+
+
+
